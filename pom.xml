@@ -65,6 +65,15 @@
 		</dependency>
 	</dependencies>
 
+	<profiles>
+		<profile>
+			<id>openshift</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+		</profile>
+	</profiles>
+
 	<build>
 		<plugins>
 			<plugin>
